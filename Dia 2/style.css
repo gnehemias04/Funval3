@@ -1,43 +1,28 @@
-/*h1{
-    color: blueviolet;
-}
-
-#lista{
-    color: red;
-}
-
-.parrafo{
-    color: blue;
-}
-.card{
-    background-color: #033268;
+body{
+    background-image:url();
     color: white;
-
-}
-
-.nombres{
     font-size: 25px;
+}
 
+#imagen {
+    text-align:center;
 }
-#edad {
-    font-size: 15px;
-}
- #correo {
-    color: red;
-    font-size: 20px;
- } */
- body{
-   text-align: center;
- }
- h1{
-    font-size: 40px;
-  
- }
- header{
+header{
+    text-align: center;
     background-color: #033268;
-    color: white;
- }
+}
+#esperantina{
+    width: 250px;
+    border-radius: 15%;
+
+    
+}
+
+footer{
+    background-color: #033268;
+    display: flex;
+}
 
 
 
- 
+
