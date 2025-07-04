@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.caja{
+     border: 1px solid;
+    width: 100px;
+    height: 100px;
+     background-color: antiquewhite;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+}
+
+
+.conteiner{
+    background-color: antiquewhite;
+    border: 2px solid;
+    width: 310px;
+    height: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.caja1{
+    background-color: brown;
+    order: 6;
+}
+.caja2{
+    background-color: rgb(42, 46, 165);
+    order: 2;
+}
+.caja3{
+    background-color: rgb(42, 165, 69);
+    order: 1;
+}
+.caja4{
+    background-color: brown;
+    order: 3;
+}
+.caja5{
+    background-color: rgb(165, 42, 138);
+    order: 4;
+}
+.caja6{
+    background-color: rgb(140, 165, 42);
+    order: 5;
+}
+.caja7{
+    background-color: rgb(42, 165, 159);
+    order: 8;
+}
+.caja8{
+    background-color: brown;
+    order: 0;
+}
