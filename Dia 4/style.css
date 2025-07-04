@@ -160,6 +160,25 @@ p{
 }
 
 
+
+
+
+@media (max-width: 1560px){
+
+
+.imagen{
+    display: flex;
+   width: 310px;
+   margin: auto;
+   border: 12px solid rgba(0, 0, 0, 0.596);
+   border-radius: 16px;
+    
+}
+
+
+
+}
+
 @media (max-width: 992px){
 
 
@@ -175,18 +194,3 @@ p{
 
 }
 
-@media (max-width: 1360px){
-
-
-.imagen{
-    display: flex;
-   width: 350px;
-   margin: auto;
-   border: 12px solid rgba(0, 0, 0, 0.596);
-   border-radius: 16px;
-    
-}
-
-
-
-}
