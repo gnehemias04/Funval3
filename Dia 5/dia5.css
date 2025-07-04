@@ -10,14 +10,15 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgba(0, 0, 0, 0.551);
     
 
 }
 .caja{
-     border: 1px solid;
+     border: 2px solid white;
     width: 100px;
     height: 100px;
-     background-color: antiquewhite;
+     background-color: rgb(9, 31, 228);
      display: flex;
      align-items: center;
      justify-content: center;
@@ -25,45 +26,64 @@ body{
 }
 
 
+.caja7{
+    border: 1px solid black;
+    width: 200px;
+    height: 300px;
+    margin-left: 100px;
+    background-color: blue;
+}
+
 .conteiner{
-    background-color: antiquewhite;
-    border: 2px solid;
-    width: 310px;
-    height: 310px;
+    display: grid;
+    grid-template-columns: repeat(3 ,100px);
+   gap: 100px;
+   
+    
+}
+.todo{
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    border: 2px solid;
+    background-color: beige;
+}
+
+@media (max-width: 768px) {
+  .caja {
+    background-color: rgb(0, 255, 8);
+  }
+.conteiner{
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    gap: 40px;
+    padding: 40px;
+    order: 2;
+}
+
+.cajaazul{
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.caja7{
+    margin: 10px;
+}
+.todo{
+    display: grid;
+    grid-template-columns: repeat(1, 300px);
+    
+   
     
 }
 
-.caja1{
-    background-color: brown;
-    order: 6;
 }
-.caja2{
-    background-color: rgb(42, 46, 165);
-    order: 2;
-}
-.caja3{
-    background-color: rgb(42, 165, 69);
-    order: 1;
-}
-.caja4{
-    background-color: brown;
-    order: 3;
-}
-.caja5{
-    background-color: rgb(165, 42, 138);
-    order: 4;
-}
-.caja6{
-    background-color: rgb(140, 165, 42);
-    order: 5;
-}
-.caja7{
-    background-color: rgb(42, 165, 159);
-    order: 8;
-}
-.caja8{
-    background-color: brown;
-    order: 0;
-}
+
+
+
+
+
