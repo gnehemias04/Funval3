@@ -1,0 +1,27 @@
+body{
+    color: white;
+    font-size: 25px;
+}
+
+#imagen {
+    text-align:center;
+}
+header{
+    text-align: center;
+    background-color: #033268;
+}
+#esperantina{
+    width: 250px;
+    border-radius: 15%;
+
+    
+}
+
+footer{
+    background-color: #033268;
+    display: flex;
+}
+
+
+
+
