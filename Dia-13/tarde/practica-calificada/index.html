@@ -10,7 +10,9 @@
 
   <body class="h-screen w-screen">
     <header class="h-[20%] w-full bg-green-800 grid place-items-center">
-      <h1 class="text-yellow-500 font-extrabold text-7xl">Banco de Oro</h1>
+      <h1 class="text-yellow-500 font-extrabold text-3xl lg:text-7xl">
+        Banco de Oro
+      </h1>
       <p class="text-yellow-500 font-bold text-xl">Bienvenido Usuario</p>
     </header>
 
@@ -20,30 +22,35 @@
       >
         <div
           class="grid place-items-center bg-white border-4 border-black w-[90%] h-[90%] m-4 hover:opacity-70 hover:scale-110 cursor-pointer transition-transform duration-350"
+          onclick="depositarhtml(cantidad)"
         >
-          <p class="text-2xl font-bold">Deposito de Dinero</p>
+          <p class="text-sm lg:text-2xl font-bold">Deposito de Dinero</p>
         </div>
         <div
           class="grid place-items-center bg-white border-4 border-black w-[90%] h-[90%] m-4 hover:opacity-70 hover:scale-110 cursor-pointer transition-transform duration-350"
+          onclick="retirarhtml(cantidad)"
         >
-          <p class="text-2xl font-bold">Retiro de Dinero</p>
+          <p class="text-sm lg:text-2xl font-bold">Retiro de Dinero</p>
         </div>
         <div
           class="grid place-items-center bg-white border-4 border-black w-[90%] h-[90%] m-4 hover:opacity-70 hover:scale-110 cursor-pointer transition-transform duration-350"
+          onclick="consultarhtml(saldo)"
         >
-          <p class="text-2xl font-bold">Consulta tu Saldo</p>
+          <p class="text-sm lg:text-2xl font-bold">Consulta tu Saldo</p>
         </div>
 
         <div
           class="grid place-items-center bg-white border-4 border-black w-[90%] h-[90%] m-4 col-span-3"
         >
-          <p class="text-2xl font-bold">operaciones</p>
+          <p class="text-sm lg:text-2xl font-bold">operaciones</p>
         </div>
       </div>
     </main>
 
     <footer class="w-full h-[10%] bg-gray-700 grid place-items-center">
-      <p class="text-2xl text-white font-bold">Developed by Gabriel Rengifo</p>
+      <p class="text-sm lg:text-2xl text-white font-bold">
+        Developed by Gabriel Rengifo
+      </p>
     </footer>
   </body>
 </html>
