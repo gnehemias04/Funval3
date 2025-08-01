@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practica calificada 8</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body class="h-screen w-screen bg-[#192a32]">
+    <div class="modal w-screen h-screen bg-black/50 absolute">
+      <div
+        class="bg-[#1f3540] font-bold flex flex-col justify-center items-center p-4 w-screen mt-40 gap-5 lg:gap-7 h-[25%]"
+      >
+        <p class="text-[#a8bec9] sm:text-2xl md:text-3xl lg:text-4xl">
+          RESTART GAME?
+        </p>
+        <div class="flex gap-3">
+          <a href="./index.html">
+            <button
+              class="bg-[#a8bec9] shadow-2xl rounded-2xl text-center p-3 text-[#192a32] font-bold cursor-pointer"
+            >
+              <p class="sm:text-xl md:text-2xl">NO, CANCEL</p>
+            </button>
+          </a>
+          <button
+            class="bg-[#f2b237] shadow-2xl rounded-2xl text-center p-3 text-[#192a32] font-bold"
+          >
+            <p class="sm:text-xl md:text-2xl">YES, RESTART</p>
+          </button>
+        </div>
+      </div>
+    </div>
+    <header class="superior flex justify-around mt-2">
+      <a href="./inicio.html">
+        <div class="flex gap-1 items-center justify-center">
+          <img
+            src="./close-mini-1522-svgrepo-com.svg"
+            alt="circle"
+            class="w-[24px] sm:w-[36px] md:w-[48px] lg:w-[60px]"
+          />
+          <img
+            src="./circleyellow.svg"
+            alt="circle"
+            class="w-[24px] sm:w-[36px] md:w-[48px] lg:w-[60px]"
+          />
+        </div>
+      </a>
+      <div
+        class="bg-[#1f3540] p-1 rounded-xl flex gap-2 shadow-2xl items-center"
+      >
+        <img
+          src="./xgris.svg"
+          alt=""
+          class="w-[20px] sm:w-[30px] md:w-[40px] lg:w-[50px]"
+        />
+        <h2 class="text-[#a8bec9] font-bold md:text-2xl lg:text-3xl">TURN</h2>
+      </div>
+      <div
+        class="bg-[#a8bec9] flex justify-center items-center px-2 rounded-xl shadow-2xl"
+      >
+        <img
+          src="./recharge.svg"
+          alt=""
+          class="w-[20px] sm:w-[30px] md:w-[40px] lg:w-[50px]"
+        />
+      </div>
+    </header>
+    <main class="flex flex-col items-center">
+      <div class="contenedor w-[90%] sm:w-[70%] md:w-[50%] lg:w-[30%]">
+        <div class="tablero grid grid-cols-3 m-4 gap-4">
+          <div class="bg-[#1f3540] shadow-2xl rounded-2xl">
+            <img src="" alt="" />
+          </div>
+          <div class="bg-[#1f3540] shadow-2xl rounded-2xl p-4">
+            <img src="./circleyellow.svg" alt="" />
+          </div>
+          <div class="bg-[#1f3540] shadow-2xl rounded-2xl p-4">
+            <img src="./close-mini-1522-svgrepo-com.svg" alt="" />
+          </div>
+          <div class="bg-[#1f3540] shadow-2xl rounded-2xl p-4">
+            <img src="./close-mini-1522-svgrepo-com.svg" alt="" />
+          </div>
+          <div class="bg-[#1f3540] shadow-2xl rounded-2xl p-4">
+            <img src="./circleyellow.svg" alt="" />
+          </div>
+          <div class="bg-[#1f3540] shadow-2xl rounded-2xl p-4">
+            <img src="./close-mini-1522-svgrepo-com.svg" alt="" />
+          </div>
+          <div class="bg-[#1f3540] shadow-2xl rounded-2xl p-4"></div>
+          <div class="bg-[#1f3540] shadow-2xl rounded-2xl p-4">
+            <img src="./circleyellow.svg" alt="" />
+          </div>
+          <div class="bg-[#1f3540] shadow-2xl rounded-2xl p-4">
+            <img src="./close-mini-1522-svgrepo-com.svg" alt="" />
+          </div>
+        </div>
+        <!-- inferior -->
+        <div
+          class="inferior grid grid-cols-3 m-4 gap-4 text-[#192a32] md:text-2xl lg:text-3xl"
+        >
+          <div class="bg-[#31c4be] shadow-2xl rounded-2xl text-center">
+            <p>X (YOU)</p>
+            <p class="text-2xl font-bold">14</p>
+          </div>
+          <div class="bg-[#a8bec9] shadow-2xl rounded-2xl text-center">
+            <p>TIES</p>
+            <p class="text-2xl font-bold">32</p>
+          </div>
+          <div class="bg-[#f2b237] shadow-2xl rounded-2xl text-center">
+            <p>O (CPU)</p>
+            <p class="text-2xl font-bold">11</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

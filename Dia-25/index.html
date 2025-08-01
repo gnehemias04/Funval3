@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rick and Morty Fan Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-900 text-white font-sans">
+    <!-- Header -->
+    <header class="bg-green-500 p-4 shadow-md">
+      <h1 class="text-3xl font-bold text-center">Rick and Morty Universe</h1>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      class="bg-cover bg-center h-72 flex items-center justify-center text-center"
+      style="
+        background-image: url('https://images5.alphacoders.com/812/812062.jpg');
+      "
+    >
+      <div class="bg-black/60 p-6 rounded-xl">
+        <h2 class="text-4xl font-bold mb-2">¡Explorá el Multiverso!</h2>
+        <p class="text-lg">
+          Acompañá a Rick y Morty en sus aventuras interdimensionales
+        </p>
+      </div>
+    </section>
+
+    <!-- Cards Section -->
+    <section class="py-10 px-4">
+      <h3 class="text-2xl font-semibold text-center mb-8">
+        Personajes destacados
+      </h3>
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto"
+      >
+        <!-- Card 1 -->
+        <div class="bg-gray-800 rounded-xl overflow-hidden shadow-md">
+          <img
+            src="https://i.pinimg.com/736x/89/49/94/894994a91a4458d9811b0b9ed2df90b2.jpg"
+            alt="Rick"
+            class="w-full h-52 object-cover"
+          />
+          <div class="p-4">
+            <h4 class="text-xl font-bold">Rick Sanchez</h4>
+            <p class="text-sm text-gray-300">
+              Un genio loco con una pistola de portales y cero filtros.
+            </p>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="bg-gray-800 rounded-xl overflow-hidden shadow-md">
+          <img
+            src="https://i.pinimg.com/originals/2d/4b/d5/2d4bd593b49796ef91d7895a9f5d7f46.jpg"
+            alt="Morty"
+            class="w-full h-52 object-cover"
+          />
+          <div class="p-4">
+            <h4 class="text-xl font-bold">Morty Smith</h4>
+            <p class="text-sm text-gray-300">
+              El nieto confundido pero con corazón, siempre junto a Rick.
+            </p>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="bg-gray-800 rounded-xl overflow-hidden shadow-md">
+          <img
+            src="https://i.pinimg.com/736x/f5/43/4f/f5434f61f0e9aa3dcd3de9c36b88f293.jpg"
+            alt="Summer"
+            class="w-full h-52 object-cover"
+          />
+          <div class="p-4">
+            <h4 class="text-xl font-bold">Summer Smith</h4>
+            <p class="text-sm text-gray-300">
+              Decidida y valiente, siempre lista para una aventura.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-green-600 text-center py-4">
+      <p>&copy; 2025 Rick and Morty Fan Page - Hecho por fans</p>
+    </footer>
+  </body>
+</html>
